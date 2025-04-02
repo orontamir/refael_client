@@ -1,0 +1,7 @@
+<div>
+  <h2>Order Summary</h2>
+  <p>Subtotal: {{ subtotal | currency }}</p>
+  <p>Tax: {{ tax | currency }}</p>
+  <p>Total: {{ total | currency }}</p>
+  <button (click)="submitOrder()">Submit Order</button>
+</div>
